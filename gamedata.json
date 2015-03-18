@@ -36,7 +36,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.31
+						"restitution": 0.31,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -58,7 +59,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.31
+						"restitution": 0.31,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -80,7 +82,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.31
+						"restitution": 0.31,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -102,7 +105,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.32
+						"restitution": 0.32,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -124,7 +128,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.31
+						"restitution": 0.31,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -146,7 +151,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.31
+						"restitution": 0.31,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -168,7 +174,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.32
+						"restitution": 0.32,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -190,7 +197,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.32
+						"restitution": 0.32,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -212,7 +220,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.31
+						"restitution": 0.31,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -234,7 +243,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.31
+						"restitution": 0.31,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -256,7 +266,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.31
+						"restitution": 0.31,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -278,7 +289,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.32
+						"restitution": 0.32,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -300,7 +312,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.31
+						"restitution": 0.31,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -322,7 +335,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.31
+						"restitution": 0.31,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -344,7 +358,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.32
+						"restitution": 0.32,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -366,7 +381,8 @@
 					},
 					"physics": {
 						"shape": "sphere",
-						"restitution": 0.31
+						"restitution": 0.31,
+						"damping": 0.05
 					},
 					"mesh": {
 						"shape": "sphere",
@@ -501,7 +517,7 @@
 							"type": "vector",
 							"parameters": [
 								0,
-								0,
+								-0.7719930180776622,
 								35.756437279624066
 							]
 						}
@@ -516,8 +532,8 @@
 						"position": {
 							"type": "vector",
 							"parameters": [
-								-11.114690284756923,
-								0.000025861604632445476,
+								-11.114696492754593,
+								-0.8893230705215684,
 								21.482534547434565
 							]
 						},
@@ -561,12 +577,72 @@
 					"cuecontroller": {}
 				}
 			}
+		},
+		"test": {
+			"entities": {
+				"box": {
+					"transform": {
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								26.72,
+								16.38,
+								19.83
+							]
+						},
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0,
+								0.86,
+								2.59
+							]
+						}
+					},
+					"mesh": {
+						"materialType": "phong",
+						"materialColour": 16777215
+					}
+				},
+				"lii": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-24.897706062754,
+								-15.315117528558606,
+								17.816122787814223
+							]
+						}
+					},
+					"light": {
+						"type": "point",
+						"colour": 16747890
+					}
+				},
+				"loii2": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-17.21522275138502,
+								27.084394785427442,
+								30.825926428639576
+							]
+						}
+					},
+					"light": {
+						"type": "point",
+						"colour": 2651052
+					}
+				}
+			}
 		}
 	},
 	"config": {
 		"shadowMapEnabled": true,
 		"shadowMapType": "PCFSoftShadowMap",
-		"clearColour": 1908567,
+		"clearColour": 1578830,
 		"pointerLockEnabled": false,
 		"defaultSceneID": "pool"
 	}

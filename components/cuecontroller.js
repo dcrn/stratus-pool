@@ -52,8 +52,8 @@ CueController.prototype.update = function(dt) {
             dir.normalize();
             
         if (this.hitting) {
-            this.dist -= 0.1
-            if (this.dist < 0.1) {
+            this.dist -= this.outdist * dt * 4;
+            if (this.dist <= 0) {
                 this.hitting = false;
                 cball.get('physics').applyCentralForce(dir.clone().multiplyScalar(-this.hitforce));
             }

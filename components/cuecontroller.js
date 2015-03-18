@@ -60,7 +60,7 @@ CueController.prototype.update = function(dt) {
             this.dist = this.outdist
         }
         
-        var npos = cpos.add(dir.clone().multiplyScalar(this.length/2 + this.outdist * THREE.Math.smoothstep(this.dist, 0, this.outdist)));
+        var npos = cpos.clone().add(dir.clone().multiplyScalar(this.length/2 + this.outdist * THREE.Math.smoothstep(this.dist, 0, this.outdist)));
         var quat = new Quaternion().setFromUnitVectors(new Vector3(0, 1, 0), dir);
     
         ent.get('transform').setRotation(quat);

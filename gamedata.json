@@ -1,0 +1,573 @@
+{
+	"scenes": {
+		"pool": {
+			"entities": {
+				"table": {
+					"transform": {
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								18.13,
+								30.82,
+								1
+							]
+						}
+					},
+					"physics": {
+						"mass": 0,
+						"friction": 1
+					},
+					"mesh": {
+						"materialColour": 7646814,
+						"materialType": "phong",
+						"receiveShadow": true
+					}
+				},
+				"cueball": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0,
+								-8.033627412068064,
+								1.7173769628822146
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.31
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 16777215,
+						"castShadow": true
+					}
+				},
+				"rball1": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-0.5578467501061972,
+								4.0092985107053885,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.31
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 16731468,
+						"castShadow": true
+					}
+				},
+				"rball2": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0,
+								3.0983261503006947,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.31
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 16731468,
+						"castShadow": true
+					}
+				},
+				"yball1": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0.6298447570580077,
+								4.0092985107053885,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.32
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 15855692,
+						"castShadow": true
+					}
+				},
+				"yball2": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-1.0018805669302786,
+								4.947804637570355,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.31
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 15855692,
+						"castShadow": true
+					}
+				},
+				"8ball": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0.07297986216916108,
+								4.947804637570355,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.31
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 1513242,
+						"castShadow": true
+					}
+				},
+				"rball3": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-0.9969931686197171,
+								6.791232454217649,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.32
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 16731468,
+						"castShadow": true
+					}
+				},
+				"yball3": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								1.8180722300437875,
+								5.770356377025555,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.32
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 15855692,
+						"castShadow": true
+					}
+				},
+				"yball4": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0.1433153584048963,
+								6.821917722402354,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.31
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 15855692,
+						"castShadow": true
+					}
+				},
+				"rball4": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								1.1655901476360793,
+								4.94150463072644,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.31
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 16731468,
+						"castShadow": true
+					}
+				},
+				"rball5": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0.622772390657568,
+								5.892982423777578,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.31
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 16731468,
+						"castShadow": true
+					}
+				},
+				"rball6": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-1.5891186204760093,
+								5.892982423777578,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.32
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 16731468,
+						"castShadow": true
+					}
+				},
+				"yball5": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-0.42905871220681924,
+								5.89700046362616,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.31
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 15855692,
+						"castShadow": true
+					}
+				},
+				"yball6": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-2.061782910071326,
+								6.801806187381267,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.31
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 15855692,
+						"castShadow": true
+					}
+				},
+				"rball7": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								2.440592537530634,
+								6.6922434273542635,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.32
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 16731468,
+						"castShadow": true
+					}
+				},
+				"yball7": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								1.322412744675331,
+								6.700820557667136,
+								1.8391081763508002
+							]
+						}
+					},
+					"physics": {
+						"shape": "sphere",
+						"restitution": 0.31
+					},
+					"mesh": {
+						"shape": "sphere",
+						"materialType": "phong",
+						"materialColour": 15855692,
+						"castShadow": true
+					}
+				},
+				"wall1": {
+					"transform": {
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								1.81,
+								30.82,
+								1
+							]
+						},
+						"position": {
+							"type": "vector",
+							"parameters": [
+								9.953056847772139,
+								0,
+								0.9439187143498486
+							]
+						}
+					},
+					"physics": {
+						"mass": 0,
+						"restitution": 1,
+						"friction": 1
+					},
+					"mesh": {
+						"materialColour": 7646814,
+						"materialType": "phong",
+						"receiveShadow": true
+					}
+				},
+				"wall2": {
+					"transform": {
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								1.81,
+								30.82,
+								1
+							]
+						},
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-9.683173954564733,
+								0,
+								1.0571672059673602
+							]
+						}
+					},
+					"physics": {
+						"mass": 0,
+						"restitution": 1,
+						"friction": 1
+					},
+					"mesh": {
+						"materialColour": 7646814,
+						"materialType": "phong",
+						"receiveShadow": true
+					}
+				},
+				"wall3": {
+					"transform": {
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								18.13,
+								1.81,
+								1
+							]
+						},
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0,
+								16.304872165695738,
+								0.9479312019249413
+							]
+						}
+					},
+					"physics": {
+						"mass": 0,
+						"restitution": 1,
+						"friction": 1
+					},
+					"mesh": {
+						"materialColour": 7646814,
+						"materialType": "phong",
+						"receiveShadow": true
+					}
+				},
+				"wall4": {
+					"transform": {
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								18.13,
+								1.81,
+								1
+							]
+						},
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0,
+								-16.287727948842544,
+								0.9479312019249413
+							]
+						}
+					},
+					"physics": {
+						"mass": 0,
+						"restitution": 1,
+						"friction": 1
+					},
+					"mesh": {
+						"materialColour": 7646814,
+						"materialType": "phong",
+						"receiveShadow": true
+					}
+				},
+				"mainlight": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0,
+								0,
+								35.756437279624066
+							]
+						}
+					},
+					"light": {
+						"type": "spotlight",
+						"castShadow": true
+					}
+				},
+				"cam": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-11.114690284756923,
+								0.000025861604632445476,
+								21.482534547434565
+							]
+						},
+						"rotation": {
+							"type": "quaternion",
+							"parameters": [
+								-0.17836381644125454,
+								0.17836506149365358,
+								0.6842436664162191,
+								-0.6842388901488758
+							]
+						}
+					},
+					"camera": {}
+				},
+				"cue": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0,
+								1.924872587931933,
+								-1.7449825196694189
+							]
+						},
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								-0.86,
+								4.31,
+								-0.86
+							]
+						}
+					},
+					"mesh": {
+						"shape": "cylinder",
+						"materialColour": 13016093,
+						"castShadow": true,
+						"receiveShadow": false
+					},
+					"cuecontroller": {}
+				}
+			}
+		}
+	},
+	"config": {
+		"shadowMapEnabled": true,
+		"shadowMapType": "PCFSoftShadowMap",
+		"clearColour": 1908567,
+		"pointerLockEnabled": false,
+		"defaultSceneID": "pool"
+	}
+}

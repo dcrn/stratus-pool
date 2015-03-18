@@ -577,66 +577,6 @@
 					"cuecontroller": {}
 				}
 			}
-		},
-		"test": {
-			"entities": {
-				"box": {
-					"transform": {
-						"scale": {
-							"type": "vector",
-							"parameters": [
-								26.72,
-								16.38,
-								19.83
-							]
-						},
-						"position": {
-							"type": "vector",
-							"parameters": [
-								0,
-								0.86,
-								2.59
-							]
-						}
-					},
-					"mesh": {
-						"materialType": "phong",
-						"materialColour": 16777215
-					}
-				},
-				"lii": {
-					"transform": {
-						"position": {
-							"type": "vector",
-							"parameters": [
-								-24.897706062754,
-								-15.315117528558606,
-								17.816122787814223
-							]
-						}
-					},
-					"light": {
-						"type": "point",
-						"colour": 16747890
-					}
-				},
-				"loii2": {
-					"transform": {
-						"position": {
-							"type": "vector",
-							"parameters": [
-								-17.21522275138502,
-								27.084394785427442,
-								30.825926428639576
-							]
-						}
-					},
-					"light": {
-						"type": "point",
-						"colour": 2651052
-					}
-				}
-			}
 		}
 	},
 	"config": {

@@ -41,6 +41,8 @@ CueController.prototype.onComponentAdded = function(ent, comp) {
 }
 
 CueController.prototype.update = function(dt) {
+    if (dt === 0) return;
+    
     var ent = this.entity;
     var cball = ent.scene.entities.cueball;
     if (cball) {

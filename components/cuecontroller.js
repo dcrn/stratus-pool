@@ -4,7 +4,7 @@ CueController = function() {
     this.raycaster = new THREE.Raycaster();
     this.dist = 2;
     this.outdist = 2;
-    this.hitforce = 4000;
+    this.hitforce = 2000;
     
     this.raypoint = new Vector3();
     

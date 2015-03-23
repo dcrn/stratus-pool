@@ -28,9 +28,9 @@
 						"position": {
 							"type": "vector",
 							"parameters": [
-								0,
-								-8.033627412068064,
-								1.7173769628822146
+								-0.1534742679442438,
+								-7.8096623091832225,
+								2.1015038356090017
 							]
 						}
 					},
@@ -481,36 +481,6 @@
 						"receiveShadow": true
 					}
 				},
-				"wall4": {
-					"transform": {
-						"scale": {
-							"type": "vector",
-							"parameters": [
-								18.13,
-								1.81,
-								1
-							]
-						},
-						"position": {
-							"type": "vector",
-							"parameters": [
-								0,
-								-16.287727948842544,
-								0.9479312019249413
-							]
-						}
-					},
-					"physics": {
-						"mass": 0,
-						"restitution": 1,
-						"friction": 1
-					},
-					"mesh": {
-						"materialColour": 7646814,
-						"materialType": "phong",
-						"receiveShadow": true
-					}
-				},
 				"mainlight": {
 					"transform": {
 						"position": {
@@ -554,7 +524,7 @@
 						"position": {
 							"type": "vector",
 							"parameters": [
-								0,
+								5.546950292684082,
 								-2.850180268202804,
 								1.8241642316244828
 							]
@@ -562,9 +532,9 @@
 						"scale": {
 							"type": "vector",
 							"parameters": [
-								-0.86,
-								4.31,
-								-0.86
+								0.5,
+								20,
+								0.5
 							]
 						}
 					},
@@ -575,6 +545,36 @@
 						"receiveShadow": false
 					},
 					"cuecontroller": {}
+				},
+				"wall5": {
+					"transform": {
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								18.13,
+								1.81,
+								1
+							]
+						},
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0,
+								-16.287727948842544,
+								0.9479312019249413
+							]
+						}
+					},
+					"physics": {
+						"mass": 0,
+						"restitution": 1,
+						"friction": 1
+					},
+					"mesh": {
+						"materialColour": 7646814,
+						"materialType": "phong",
+						"receiveShadow": true
+					}
 				}
 			}
 		}

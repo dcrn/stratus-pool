@@ -41,7 +41,7 @@
 					},
 					"mesh": {
 						"shape": "sphere",
-						"materialType": "lambert",
+						"materialType": "phong",
 						"materialColour": 16777215,
 						"castShadow": true
 					}

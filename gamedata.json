@@ -540,7 +540,7 @@
 					},
 					"mesh": {
 						"shape": "cylinder",
-						"materialColour": 13016093,
+						"materialColour": 16686109,
 						"castShadow": true,
 						"receiveShadow": false
 					},
